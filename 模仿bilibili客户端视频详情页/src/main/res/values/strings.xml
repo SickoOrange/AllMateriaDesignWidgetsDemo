@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">模仿bilibili客户端视频详情页</string>
+
+    <string name="text">我们先对原界面分析一下。界面初始，CollapsingToolbarLayout是展开状态，显示的是视频封面。我们向上滚动界面，CollapsingToolbarLayout收缩。当AppBarLayout完全折叠的时候视频av号隐藏，显示出来一个小电视图标和“立即播放”，点击则使AppBarLayout完全展开，CollapsingToolbarLayout子布局由ImageView切换为视频弹幕播放器。额...弹幕播放器...B站很早就开源了一个弹幕引擎，还起了个狂拽酷炫吊炸天的名字叫“烈焰弹幕使 ”（一看就是二次元程序猿们的作品→_→），源码在github上，项目名叫DanmakuFlameMaster。
+        因为我们要实现沉浸式状态栏，所以就需要先把整个activity设置成状态栏透明模式。然后在布局文件中，把CollapsingToolbarLayout里要实现沉浸式的控件设置上android:fitsSystemWindows="true"，如果没有设置，则子布局会位于状态栏下方，未延伸至状态栏。
+        布局并不算复杂，接下来先实现无弹幕播放时的功能,。
+        我们需要监听CollapsingToolbarLayout的折叠、展开状态。唉我去，官方并没有提供现成的方法（⊙＿⊙？）。
+        查看源码，可以看到CollapsingToolbarLayout是通过实现AppBarLayout的OnOffsetChangedListener接口，根据AppBarLayout的偏移来实现子布局和title的视差移动以及ContentScrim和StatusBarScrim的显示。那么我们也可以通过调用AppBarLayout的addOnOffsetChangedListener方法监听AppBarLayout的位移，判断CollapsingToolbarLayout的状态。
+        先写一个枚举定义出CollapsingToolbarLayout展开、折叠、中间，这三种状态。
+        接下来对AppBarLayout进行监听，判断CollapsingToolbarLayout的状态并实现相应的逻辑。
+        为了让大家对状态看着更直观，我在修改状态值的时候把title一起进行了修改。
+        使用CollapsingToolbarLayout的时候要注意，在完成CollapsingToolbarLayout设置之后再调用Toolbar的setTitle()等方法将没有效果，我们需要改为调用CollapsingToolbarLayout的setTitle()等方法来对工具栏进行修改。（具体原因各位亲去看下CollapsingToolbarLayout源码就知道了　( ˙-˙ )　）然后对播放按钮设置监听，点击则调用AppBarLayout的setExpanded(true)方法使工具栏展开。
+        哔哩哔哩客户端的title是固定不动的，可以调用CollapsingToolbarLayout的setTitleEnabled(false)方法实现。
+        视频播放时，调用 NestedScrollView的setNestedScrollingEnabled(false)方法可以使AppBarLayout不响应滚动事件。
+        细心的朋友可能发现了哔哩哔哩客户端为了避免视频封面图片颜色过浅影响状态栏信息的显示，加了一个渐变的不透明层。
+
+    </string>
+</resources>
