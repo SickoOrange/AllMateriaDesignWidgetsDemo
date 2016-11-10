@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CoordinatorLayoutDemo/coordinator_layout_demo.iml" filepath="$PROJECT_DIR$/CoordinatorLayoutDemo/coordinator_layout_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoordinatorLayoutDemo/CoordinatorLayoutDemo.iml" filepath="$PROJECT_DIR$/CoordinatorLayoutDemo/CoordinatorLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLayoutDemo.iml" filepath="$PROJECT_DIR$/MaterialLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Scrolling_Activity_Demo/Scrolling_Activity_Demo.iml" filepath="$PROJECT_DIR$/Scrolling_Activity_Demo/Scrolling_Activity_Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/actionbarwithtoolbar/actionbarwithtoolbar.iml" filepath="$PROJECT_DIR$/actionbarwithtoolbar/actionbarwithtoolbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/appbarlayout/appbarlayout.iml" filepath="$PROJECT_DIR$/appbarlayout/appbarlayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/模仿bilibili客户端视频详情页/模仿bilibili客户端视频详情页.iml" filepath="$PROJECT_DIR$/模仿bilibili客户端视频详情页/模仿bilibili客户端视频详情页.iml" />
     </modules>
   </component>
