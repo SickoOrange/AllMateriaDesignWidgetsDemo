@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CollapsingToolbarLayout与TabLayout/CollapsingToolbarLayout与TabLayout.iml" filepath="$PROJECT_DIR$/CollapsingToolbarLayout与TabLayout/CollapsingToolbarLayout与TabLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoordinatorLayoutDemo/CoordinatorLayoutDemo.iml" filepath="$PROJECT_DIR$/CoordinatorLayoutDemo/CoordinatorLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLayoutDemo.iml" filepath="$PROJECT_DIR$/MaterialLayoutDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Material_Design可折叠风格与TabLayout/Material_Design可折叠风格与TabLayout.iml" filepath="$PROJECT_DIR$/Material_Design可折叠风格与TabLayout/Material_Design可折叠风格与TabLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/Scrolling_Activity_Demo/Scrolling_Activity_Demo.iml" filepath="$PROJECT_DIR$/Scrolling_Activity_Demo/Scrolling_Activity_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/模仿bilibili客户端视频详情页/模仿bilibili客户端视频详情页.iml" filepath="$PROJECT_DIR$/模仿bilibili客户端视频详情页/模仿bilibili客户端视频详情页.iml" />
