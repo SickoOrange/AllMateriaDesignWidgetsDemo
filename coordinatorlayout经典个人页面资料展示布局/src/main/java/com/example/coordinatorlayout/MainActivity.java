@@ -1,6 +1,9 @@
 package com.example.coordinatorlayout;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
@@ -17,6 +20,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -29,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
     private AppBarLayout appBarLayout;
     private CollapsingToolbarLayout collapsingToolbarLayout;
     private ViewPager viewPager;
+    private LinearLayout headerView;
+    private TextView header_layout_setting;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +57,8 @@ public class MainActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN |
+                    View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(Color.TRANSPARENT);
         }
@@ -58,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         initView();
-        getSupportActionBar().setTitle("melodyorange");
+        //getSupportActionBar().setTitle("melodyorange");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //给viewpager设置数据集
@@ -106,6 +114,32 @@ public class MainActivity extends AppCompatActivity {
         appBarLayout = (AppBarLayout) findViewById(R.id.appbar_layout);
         collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_layout);
         viewPager = (ViewPager) findViewById(R.id.viewpager);
+        headerView = (LinearLayout) findViewById(R.id.header_layout);
+        header_layout_setting =(TextView) findViewById(R.id.header_layout_setting);
+        header_layout_setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                show("你点击了设置按钮");
+            }
+        });
+        initBitMap();
+    }
+
+    private void initBitMap() {
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.smalljinx);
+        headerView.setBackground(new BitmapDrawable(bitmap));
+        collapsingToolbarLayout.setContentScrim(new BitmapDrawable(bitmap));
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                if (Math.abs(verticalOffset) >= appBarLayout.getHeight() / 2) {
+                    collapsingToolbarLayout.setTitle("SickoOrange");
+                } else {
+                    collapsingToolbarLayout.setTitle("nothing ");
+                }
+
+            }
+        });
     }
 
     @Override
