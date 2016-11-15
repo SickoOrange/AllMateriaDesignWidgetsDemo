@@ -1,1 +1,1 @@
-include ':app', ':CoordinatorLayoutDemo', ':Scrolling_Activity_Demo', ':模仿bilibili客户端视频详情页', ':Material_Design可折叠风格与TabLayout'
+include ':app', ':CoordinatorLayoutDemo', ':Scrolling_Activity_Demo', ':模仿bilibili客户端视频详情页', ':Material_Design可折叠风格与TabLayout', ':玩坏了的snackbar', ':demo', ':coordinatorlayout经典个人页面资料展示布局'
