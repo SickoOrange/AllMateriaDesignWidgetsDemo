@@ -8,14 +8,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/CoordinatorLayoutDemo" />
+            <option value="$PROJECT_DIR$/Material Design 经典个人页面资料展示布局" />
             <option value="$PROJECT_DIR$/Material_Design可折叠风格与TabLayout" />
-            <option value="$PROJECT_DIR$/Scrolling_Activity_Demo" />
+            <option value="$PROJECT_DIR$/Scrolling_Activity_官方Demo" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/coordinatorlayout经典个人页面资料展示布局" />
             <option value="$PROJECT_DIR$/demo" />
             <option value="$PROJECT_DIR$/模仿bilibili客户端视频详情页" />
             <option value="$PROJECT_DIR$/玩坏了的snackbar" />
+            <option value="$PROJECT_DIR$/简单模拟Coordinator的Behavior行为" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

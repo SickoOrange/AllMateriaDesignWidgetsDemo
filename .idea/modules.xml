@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CoordinatorLayoutDemo/CoordinatorLayoutDemo.iml" filepath="$PROJECT_DIR$/CoordinatorLayoutDemo/CoordinatorLayoutDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Material Design 经典个人页面资料展示布局/Material Design 经典个人页面资料展示布局.iml" filepath="$PROJECT_DIR$/Material Design 经典个人页面资料展示布局/Material Design 经典个人页面资料展示布局.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLayoutDemo.iml" filepath="$PROJECT_DIR$/MaterialLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Material_Design可折叠风格与TabLayout/Material_Design可折叠风格与TabLayout.iml" filepath="$PROJECT_DIR$/Material_Design可折叠风格与TabLayout/Material_Design可折叠风格与TabLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Scrolling_Activity_Demo/Scrolling_Activity_Demo.iml" filepath="$PROJECT_DIR$/Scrolling_Activity_Demo/Scrolling_Activity_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scrolling_Activity_官方Demo/Scrolling_Activity_官方Demo.iml" filepath="$PROJECT_DIR$/Scrolling_Activity_官方Demo/Scrolling_Activity_官方Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/coordinatorlayout经典个人页面资料展示布局/coordinatorlayout经典个人页面资料展示布局.iml" filepath="$PROJECT_DIR$/coordinatorlayout经典个人页面资料展示布局/coordinatorlayout经典个人页面资料展示布局.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/模仿bilibili客户端视频详情页/模仿bilibili客户端视频详情页.iml" filepath="$PROJECT_DIR$/模仿bilibili客户端视频详情页/模仿bilibili客户端视频详情页.iml" />
       <module fileurl="file://$PROJECT_DIR$/玩坏了的snackbar/玩坏了的snackbar.iml" filepath="$PROJECT_DIR$/玩坏了的snackbar/玩坏了的snackbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/简单模拟Coordinator的Behavior行为/简单模拟Coordinator的Behavior行为.iml" filepath="$PROJECT_DIR$/简单模拟Coordinator的Behavior行为/简单模拟Coordinator的Behavior行为.iml" />
     </modules>
   </component>
 </project>
