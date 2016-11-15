@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android M权限最佳管理，玩坏了的权限问题/Android M权限最佳管理，玩坏了的权限问题.iml" filepath="$PROJECT_DIR$/Android M权限最佳管理，玩坏了的权限问题/Android M权限最佳管理，玩坏了的权限问题.iml" />
       <module fileurl="file://$PROJECT_DIR$/Material Design 经典个人页面资料展示布局/Material Design 经典个人页面资料展示布局.iml" filepath="$PROJECT_DIR$/Material Design 经典个人页面资料展示布局/Material Design 经典个人页面资料展示布局.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialLayoutDemo.iml" filepath="$PROJECT_DIR$/MaterialLayoutDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Material_Design可折叠风格与TabLayout/Material_Design可折叠风格与TabLayout.iml" filepath="$PROJECT_DIR$/Material_Design可折叠风格与TabLayout/Material_Design可折叠风格与TabLayout.iml" />

@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Android M权限最佳管理，玩坏了的权限问题" />
             <option value="$PROJECT_DIR$/Material Design 经典个人页面资料展示布局" />
             <option value="$PROJECT_DIR$/Material_Design可折叠风格与TabLayout" />
             <option value="$PROJECT_DIR$/Scrolling_Activity_官方Demo" />
