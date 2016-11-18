@@ -14,8 +14,10 @@
             <option value="$PROJECT_DIR$/Scrolling_Activity_官方Demo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/demo" />
+            <option value="$PROJECT_DIR$/recyclerview进阶使用正确的姿势" />
             <option value="$PROJECT_DIR$/模仿bilibili客户端视频详情页" />
             <option value="$PROJECT_DIR$/玩坏了的snackbar" />
+            <option value="$PROJECT_DIR$/用RecyclerView练手仿美团分类界面" />
             <option value="$PROJECT_DIR$/简单模拟Coordinator的Behavior行为" />
             <option value="$PROJECT_DIR$/视频与viewpager的完美结合之炫酷的启动界面" />
           </set>

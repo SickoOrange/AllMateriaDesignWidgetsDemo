@@ -9,8 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/Scrolling_Activity_官方Demo/Scrolling_Activity_官方Demo.iml" filepath="$PROJECT_DIR$/Scrolling_Activity_官方Demo/Scrolling_Activity_官方Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview进阶使用正确的姿势/recyclerview进阶使用正确的姿势.iml" filepath="$PROJECT_DIR$/recyclerview进阶使用正确的姿势/recyclerview进阶使用正确的姿势.iml" />
       <module fileurl="file://$PROJECT_DIR$/模仿bilibili客户端视频详情页/模仿bilibili客户端视频详情页.iml" filepath="$PROJECT_DIR$/模仿bilibili客户端视频详情页/模仿bilibili客户端视频详情页.iml" />
       <module fileurl="file://$PROJECT_DIR$/玩坏了的snackbar/玩坏了的snackbar.iml" filepath="$PROJECT_DIR$/玩坏了的snackbar/玩坏了的snackbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/用RecyclerView练手仿美团分类界面/用RecyclerView练手仿美团分类界面.iml" filepath="$PROJECT_DIR$/用RecyclerView练手仿美团分类界面/用RecyclerView练手仿美团分类界面.iml" />
       <module fileurl="file://$PROJECT_DIR$/简单模拟Coordinator的Behavior行为/简单模拟Coordinator的Behavior行为.iml" filepath="$PROJECT_DIR$/简单模拟Coordinator的Behavior行为/简单模拟Coordinator的Behavior行为.iml" />
       <module fileurl="file://$PROJECT_DIR$/视频与viewpager的完美结合之炫酷的启动界面/视频与viewpager的完美结合之炫酷的启动界面.iml" filepath="$PROJECT_DIR$/视频与viewpager的完美结合之炫酷的启动界面/视频与viewpager的完美结合之炫酷的启动界面.iml" />
     </modules>
