@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
             /**竖向的瀑布流**/
             case R.id.id_action_staggeredgridview:
                 rvAdapter.setType(3);
-                rv.setBackgroundColor(getResources().getColor(R.color.colorAccent));
+               // rv.setBackgroundColor(getResources().getColor(R.color.colorAccent));
                 rv.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT));
                 rv.removeItemDecoration(dividerItemDecoration);
                 rv.setLayoutManager(new StaggeredGridLayoutManager(5, StaggeredGridLayoutManager.VERTICAL));
